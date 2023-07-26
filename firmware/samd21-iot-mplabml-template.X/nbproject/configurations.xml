@@ -401,8 +401,8 @@
         <platform>4</platform>
       </toolsSet>
       <packs>
-        <pack name="SAMD21_DFP" vendor="Microchip" version="3.6.144"/>
         <pack name="CMSIS" vendor="ARM" version="5.8.0"/>
+        <pack name="SAMD21_DFP" vendor="Microchip" version="3.6.144"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
@@ -1691,7 +1691,7 @@
       </C32CPP>
       <C32Global>
         <property key="common-include-directories"
-                  value="../bmi160;../knowledgepack/mplabml/inc;../knowledgepack/knowledgepack_project"/>
+                  value="../bmi160;../knowledgepack/mplabml/inc;../knowledgepack/application"/>
         <property key="gp-relative-option" value=""/>
         <property key="legacy-libc" value="false"/>
         <property key="mdtcm" value=""/>
@@ -3840,7 +3840,7 @@
       </C32CPP>
       <C32Global>
         <property key="common-include-directories"
-                  value="../Icm426xx;../knowledgepack/mplabml/inc;../knowledgepack/knowledgepack_project"/>
+                  value="../Icm426xx;../knowledgepack/mplabml/inc;../knowledgepack/application"/>
         <property key="gp-relative-option" value=""/>
         <property key="legacy-libc" value="false"/>
         <property key="mdtcm" value=""/>
