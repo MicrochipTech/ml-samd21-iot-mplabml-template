@@ -46,7 +46,7 @@ To deploy a knowledge pack for the SAMD21 ML Eval Kit:
 After downloading the knowledge pack, the contents need to be added to the template MPLAB X project (`samd21-iot-mplabml-template.X`). Follow the steps below to integrate the knowledge pack into an MPLAB X project.
 
 1. Extract the contents of the downloaded .zip file.
-2. Create a new folder named `knowledgepack` in the `firmware` folder of the template project (`ml-samd21-iot-mplabml-template-main/firmware/knowledgepack`) and copy the `knowledgepack_project` and `mplabml` folders from the downloaded .zip into that new folder.
+2. Create a new folder named `knowledgepack` in the `firmware` folder of the template project (`ml-samd21-iot-mplabml-template-main/firmware/knowledgepack`) and copy the `application` and `mplabml` folders from the downloaded .zip into that new folder.
 3. In MPLAB X, open up the .X project folder within the `firmware` folder of the this repository.
 4. Select the *Project Configuration* option in the MPLAB X toolbar according to which sensor you're using.
    | ![https://www.microchip.com/](assets/project-configuration.png) |
